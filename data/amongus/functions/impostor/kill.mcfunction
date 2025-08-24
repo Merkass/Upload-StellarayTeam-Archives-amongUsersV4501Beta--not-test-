@@ -1,0 +1,2 @@
+# Убийство (правый клик мечом на игрока)
+execute as @a[tag=impostor,nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] at @s as @e[type=player,distance=..3,tag=crewmate,tag=!dead] run function amongus:impostor/execute_kill

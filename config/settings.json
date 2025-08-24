@@ -1,0 +1,21 @@
+{
+  "gameSettings": {
+    "maxTasks": 5,
+    "impostorCount": 2,
+    "killCooldown": 30,
+    "voteTime": 30,
+    "emergencyMeetings": 2
+  },
+  "mapSettings": {
+    "spawn": {
+      "x": 0,
+      "y": 64,
+      "z": 0
+    },
+    "taskLocations": [
+      {"name": "Реактор", "x": 10, "y": 64, "z": 10},
+      {"name": "Электричество", "x": -10, "y": 64, "z": 10},
+      {"name": "Медбай", "x": 0, "y": 64, "z": 20}
+    ]
+  }
+}
